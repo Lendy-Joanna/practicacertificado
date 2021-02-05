@@ -1,0 +1,1 @@
+export var port = 'http://34.75.211.171:3000';//ip de servidor

@@ -21,7 +21,7 @@ require("./config/passport")(passport)
 var dbConfig = require('./config/db.js');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://test:test@cluster0.oa4ly.mongodb.net/Sesiones?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log('Conectado,,'))
+    .then(() => console.log('Conectado!!!!'))
     .catch((err) => console.log(err));
 
 var app = express();
